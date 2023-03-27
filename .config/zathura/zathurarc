@@ -1,0 +1,7 @@
+map <Right> navigate next
+map <Left> navigate previous
+map <A-Right> scroll right
+map <A-Left> scroll left
+map <A-Up> scroll up
+map <A-Down> scroll down
+set selection-clipboard clipboard
