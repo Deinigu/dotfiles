@@ -16,7 +16,8 @@ PS1='\[\e[0;2;3m\]DeltaTerminal \[\e[0m\]\w\[\e[0;1;5;92m\] > \[\e[0m\]'
 
 # Alternative (blocks terminal for 0-3ms)
 cat ~/.cache/wal/sequences
-
 # To add support for TTYs this line can be optionally added.
 source ~/.cache/wal/colors-tty.sh
 alias config='/usr/bin/git --git-dir=/home/deltablade/.cfg/ --work-tree=/home/deltablade'
+
+cowsay -f small Welcome to the DeltaTerminal
