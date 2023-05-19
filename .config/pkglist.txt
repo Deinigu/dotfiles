@@ -31,6 +31,7 @@ busybox
 cdrtools
 cmatrix
 code
+cowsay
 cpio
 croc
 crypto++
@@ -62,10 +63,12 @@ fastjar
 feh
 ffmpeg
 ffmpegthumbnailer
+figlet
 firefox
 firefox-i18n-es-es
 flatpak
 flex
+fortune-mod
 fsarchiver
 gcc
 gimp
@@ -239,6 +242,7 @@ usbutils
 vala
 vi
 vim
+virtualbox
 vlc
 vte3
 wget
@@ -246,8 +250,8 @@ which
 whois
 wireless-regdb
 wireless_tools
+wireshark-qt
 wvdial
-xca
 xcompmgr
 xdg-user-dirs
 xdg-user-dirs-gtk
