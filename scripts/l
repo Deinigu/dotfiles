@@ -1,0 +1,25 @@
+# SCRIPT TO CONTROL THE BRIGTNESS OF THE SCREEN
+# Move to /usr/bin/ 
+# Use it with 'sudo l set <brigtness level>'
+
+basedir="/sys/class/backlight/amdgpu_bl0/"
+
+handler=$basedir$(ls $basedir)"/"
+
+max_brightness=$(cat $basedir"/max_brightness")
+
+old_brightness=$(cat $basedir"/brightness")
+if [ $1 == "set" ];
+then
+	new_brightness=$(( $max_brightness * $2 / 100 ))
+	sudo echo $new_brightness > $basedir"brightness"
+    
+elif [ $1 == "inc" ];
+then
+	new_brightness=$(( $old_brightness + $max_brightness / 10 ))
+        sudo echo $new_brightness > $basedir"brightness"
+elif [ $1 == "dec" ];
+then
+	new_brightness=$(( $old_brightness - $max_brightness / 10 ))
+	sudo echo $new_brightness > $basedir"brightness"
+fi
