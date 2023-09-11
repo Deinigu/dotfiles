@@ -35,6 +35,12 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 exec --no-startup-id nm-applet
 
+# PYWAL
+exec --no-startup-id wal -R
+
+# POLYBAR
+exec --no-startup-id sleep 1 && bash $HOME/.config/polybar/launch.sh
+
 # CONFIGURACIÓN DEL TOUCHPAD
 exec_always --no-startup-id xinput set-prop "MSFT0001:00 04F3:3140 Touchpad" "libinput Disable While Typing Enabled" 0
 exec_always --no-startup-id xinput set-prop "MSFT0001:00 04F3:3140 Touchpad" "libinput Natural Scrolling Enabled" 1 
@@ -47,11 +53,6 @@ bindsym $mod+n exec --no-startup-id nautilus
 
 # Firefox
 bindsym $mod+o exec --no-startup-id firefox
-# PYWAL
-exec --no-startup-id wal -R
-
-# POLYBAR
-exec --no-startup-id sleep 1 && bash $HOME/.config/polybar/launch.sh
 
 # HDMI
 ##  exec_always --no-startup-id xrandr --output HDMI-1 --same-as eDP-1 --scale 1x1 --mode 1920x1080 --pos 0x0 
