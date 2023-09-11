@@ -4,9 +4,7 @@
 # environment variables. Some entries may override variables
 # set by alacritty itself.
 import:
-    - ~/.cache/wal/colors-alacritty.yml
-  #- ~/.config/alacritty/themes/themes/monokai_pro.yaml
-      
+  - ~/.cache/wal/colors-alacritty.yml 
 env:
   # TERM variable
   #
@@ -132,36 +130,4 @@ font:
   # Point size
   size: 12.0
   # Offset is the extra space around each character. `offset.y` can be thought of
-  # as modifying the line spacing, and `offset.x` as modifying the letter spacing.
-  #offset:
-  #  x: 0
-  #  y: 0
-  # Glyph offset determines the locations of the glyphs within their cells with
-  # the default being at the bottom. Increasing `x` moves the glyph to the right,
-  # increasing `y` moves the glyph upwards.
-  #glyph_offset:
-  #  x: 0
-  #  y: 0
-
-# If `true`, bold text is drawn using the bright color variants.
-#draw_bold_text_with_bright_colors: false
-# Colors (Tomorrow Night Bright)
-#colors:
-  # Default colors
-  #  primary:
-  # background: '#141C21'
-  # foreground: '#FFFFFF'
-
-  # Colors the cursor will use if `custom_cursor_colors` is true
-  #cursor:
-  #  text: '#000000'
-  # cursor: '#1E88E5'
-
-  # Normal colors
-  #normal:
-  # black: '#000000'
-  # red: '#FF5250'
-  #  green: '#43A047'
-  # yellow: '#FDD835'
-  # blue: '#1E88E5'
-  # white: '#000000'
+  # as modifying the line spacing, and `of
