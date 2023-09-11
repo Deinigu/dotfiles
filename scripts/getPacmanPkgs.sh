@@ -1,1 +1,2 @@
-pacman -Qqen > pkglist.txt
+pacman -Qqen > pkglistOnlyPacman.txt
+pacman -Qm > pkglistPacmanAndYay.txt
