@@ -46,7 +46,7 @@ exec_always --no-startup-id xinput set-prop "MSFT0001:00 04F3:3140 Touchpad" "li
 exec_always --no-startup-id xinput set-prop "MSFT0001:00 04F3:3140 Touchpad" "libinput Natural Scrolling Enabled" 1 
 
 # Nautilus
-bindsym $mod+n exec --no-startup-id nautilus
+bindsym $mod+n exec --no-startup-id GTK_THEME=Adwaita:dark nautilus
 
 # Opera
 # bindsym $mod+o exec --no-startup-id opera
