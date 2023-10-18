@@ -38,6 +38,9 @@ exec --no-startup-id nm-applet
 # PYWAL
 exec --no-startup-id wal -R
 
+# NumLock
+exec --no-startup-id numlockx &
+
 # POLYBAR
 exec --no-startup-id sleep 1 && bash $HOME/.config/polybar/launch.sh
 
