@@ -20,3 +20,7 @@ cowsay -f small Welcome to the DeltaTerminal
 # To add support for TTYs this line can be optionally added.
 source ~/.cache/wal/colors-tty.sh
 
+
+
+# Load Angular CLI autocompletion.
+source <(ng completion script)
