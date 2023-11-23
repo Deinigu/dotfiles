@@ -1,2 +1,2 @@
 pacman -Qqen > pkglistPacman.txt
-pacman -Qm > pkglistYay.txt
+pacman -Qqem> pkglistYay.txt

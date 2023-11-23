@@ -13,6 +13,8 @@ arch-install-scripts
 archiso
 archlinux-appstream-data
 archlinux-xdg-menu
+arduino
+arduino-cli
 ark
 asciidoc
 autoconf
@@ -29,6 +31,8 @@ broadcom-wl-dkms
 btop
 busybox
 cdrtools
+clang
+cmake
 cmatrix
 code
 cowsay
@@ -47,7 +51,9 @@ diffutils
 discord
 dmenu
 dnsmasq
+docker
 dotnet-sdk
+dunst
 e2fsprogs
 ecryptfs-utils
 efibootmgr
@@ -114,6 +120,7 @@ jfsutils
 krita
 ksnip
 less
+libc++
 libdvdcss
 libgsf
 libhandy
@@ -178,7 +185,9 @@ noto-fonts
 npm
 nss-mdns
 ntfs-3g
+numlockx
 obs-studio
+obsidian
 opencv
 opera-ffmpeg-codecs
 os-prober
@@ -188,11 +197,13 @@ partimage
 patch
 pavucontrol
 perl
+php
 picom
 pkgconf
 playerctl
 polybar
 poppler-glib
+postgresql
 pulseaudio
 pulseaudio-alsa
 pulseaudio-bluetooth
@@ -202,9 +213,14 @@ pulseaudio-lirc
 pulseaudio-zeroconf
 pulsemixer
 pv
+python-charset-normalizer
+python-django
+python-fastapi
 python-pip
 python-pygame
 python-pywal
+python-virtualenv
+qemu-base
 raylib
 redis
 reiserfsprogs
@@ -219,7 +235,7 @@ screenfetch
 sdparm
 sg3_utils
 smartmontools
-solid
+solid5
 speedtest-cli
 steam
 sudo
@@ -242,9 +258,11 @@ unzip
 upower
 usb_modeswitch
 usbutils
+uvicorn
 vala
 vi
 vim
+virt-manager
 virtualbox
 vlc
 vte3
@@ -254,6 +272,7 @@ whois
 wireless-regdb
 wireless_tools
 wireshark-qt
+wordpress
 wvdial
 xcompmgr
 xdg-user-dirs
