@@ -57,6 +57,9 @@ bindsym $mod+n exec --no-startup-id GTK_THEME=Adwaita:dark nautilus
 # Firefox
 bindsym $mod+o exec --no-startup-id firefox
 
+# Emojis
+bindsym $mod+period exec --no-startup-id rofimoji
+
 # HDMI
 ##  exec_always --no-startup-id xrandr --output HDMI-1 --same-as eDP-1 --scale 1x1 --mode 1920x1080 --pos 0x0 
 # SYNCTHING
